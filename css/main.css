@@ -10,7 +10,7 @@ body {
 }
 
 /* The width property has been changed to max-width */
-.header .content-wrapper {
+.content-wrapper {
 	max-width: 1200px;
 	width: 90%;
 	display:flex;
@@ -61,8 +61,8 @@ header {
 
 header h1 {
 	width: 100%;
-	/*float: left;
-	margin: 0;*/
+	/*float: left;*/
+	margin: 0;
 	padding: 38px 0 20px 0;
 	border-bottom: 3px solid #77a466;
 }
@@ -77,7 +77,7 @@ header nav {
 }
 
 header nav ul {
-	/*margin: 0;*/
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
@@ -184,9 +184,6 @@ footer span {
 
 
 .bottom-section .content-wrapper {
-	border-top: 5px solid #EEE;
-	border-bottom: 5px solid #EEE;
-	/*width: 90%;*/
 	justify-content: space-evenly;
 }
 
@@ -219,23 +216,12 @@ body {
 	font-size: 1em;
 }
 
-.header .content-wrapper {
-	max-width: 1200px;
-	width: 100%;
-	display:flex;
+header .content-wrapper {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0;
 	/*margin: 0 auto;
 	overflow: auto;*/
-}
-
-header {
-	display:flex;
-	justify-content: center;
-	text-align: center;
-	/*height: 110px;
-	margin: 0 auto;*/
 }
 
 header h1 {
@@ -250,15 +236,12 @@ header h1 {
 header nav {
 	/*float: right;*/
 	width: 21%;
-	padding: 20px 0;
 }
 
 header nav ul {
 	/*margin: 0;*/
 	display: flex;
 	justify-content: space-between;
-	padding: 5px;
-	list-style: none;
 }
 
 
